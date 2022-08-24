@@ -34,6 +34,8 @@ if (passengerAgeInt > 65) {
     totalPrice = ((distance * 0.21) - ((totalPrice * 40) / 100));
 }
 
-document.getElementById('price').innerHTML = `Il tuo biglietto costa ${totalPrice} euro`
+document.getElementById('price').innerHTML = `Il tuo biglietto costa ${totalPrice.toFixed(2)} euro`
+
+
 
 
